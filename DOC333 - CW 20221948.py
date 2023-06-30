@@ -27,7 +27,7 @@ while play_again:
         print("Ooooh it's tie! Let's Play again.")
         play_again_input = input("DO you wish to play again....? If you want Enter(yes) if you do not want Enter(no)")
     elif (p1 == "Inky" and c1 == "Polly") or (p1 == "Polly" and c1 == "Pinky") or (p1 == "Pinky" and c1 == "Inky"):
-        print("Congratilations!!! You won.")
+        print("Congratulations!!! You won.")
         Player_score += 1
         play_again_input = input("DO you wish to play again....? If you want Enter(yes) if you do notwant Enter(no)")
     else:
