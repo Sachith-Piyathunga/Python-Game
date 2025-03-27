@@ -1,6 +1,15 @@
 # STEP 1: Initializing Variables
 
 import random
+import pyfiglet
+
+figlet_text = pyfiglet.figlet_format("InkyPinkyPolly", font="slant")
+print(figlet_text)
+print("")
+print("")
+
+
+
 print("WELCOME TO THE INKY, PINKY, POLLY")
 
 
